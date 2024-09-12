@@ -26,7 +26,6 @@
   status = 200
 
 [functions]
-  node_bundler = "esbuild"
   included_files = ["api/dist/**/*", "./api/dist/**/*"]
   external_node_modules = ["@babel/runtime-corejs3", "@redwoodjs/auth-clerk-api", "@redwoodjs/api", "inngest", "@redwoodjs/graphql-server", "crypto-js"]
 
